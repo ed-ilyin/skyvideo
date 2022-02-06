@@ -12,7 +12,7 @@
 
 <div>
     <img id="face" src="./{id}.jpeg" alt={id} />
-    <h3 id="name">{name}</h3>
+    <h4 id="name">{name}</h4>
     <p>{role}</p>
     <Social net="ig" name={ig}></Social>
     <Social net="tt" name={tt}></Social>
@@ -31,7 +31,7 @@
         max-width: 8rem;
         max-height: 8rem;
     }
-    h3 {
+    h4 {
         font-weight: 100;
     }
     p {
