@@ -1,20 +1,17 @@
 <script>
     export let net = ''
     export let name = ''
-    let url = ''
-    switch (net) {
-        case 'ig':
-            url = 'https://www.instagram.com/'
-            break
-        case 'tt':
-            url = 'https://www.tiktok.com/@'
-            break
-    }
+    let nets = new Map([
+        ['ig', 'https://www.instagram.com/'],
+        ['tt', 'https://www.tiktok.com/@'],
+        ['tel', 'tel:']
+    ])
+    let url = nets.get(net)
 </script>
 
-<a href="{url}{name}">
+<a href="{url}{name}" target="_blank">
     <p>
-        <img src="./{net}.png" alt="@" />
+        <img src="./{net}.png" alt="{net}" />
         <span>{name}</span>
     </p>
 </a>
@@ -22,14 +19,16 @@
 <style>
     a {
         text-decoration: none;
+        /* border-bottom: 1px solid #ffff; */
     }
     p {
         color: #bbbb;
     }
     img {
-        max-width: 1rem;
-        max-height: 1rem;
+        max-width: 1.5rem;
+        max-height: 1.5rem;
         vertical-align: middle;
+        margin-right: 4px;
     }
     span {
         vertical-align: middle;

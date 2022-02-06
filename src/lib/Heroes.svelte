@@ -7,16 +7,15 @@
             role: 'Pilot, CCO',
             ig: 'raz_fpv',
             tt: 'razfpv',
-            phone: '+371 2887-7145'
+            tel: '+371 2887 7145'
         },
         {
             id: 'ed',
-            emo: '🦔',
             name: 'Ed Ilyin',
             role: 'Pilot, CTO',
             ig: 'ed.ilyin.fpv',
             tt: 'ed.ilyin.fpv',
-            phone: '+371 2916-8716'
+            tel: '+371 2916 8716'
         }
     ]
 </script>
