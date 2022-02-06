@@ -1,6 +1,6 @@
 <video autoplay muted loop id="bgVideo">
-	<source src="bg.mp4" type="video/mp4" />
-	<!-- <source src="bg.webm" type="video/webm"> -->
+	<source src="%svelte.assets%/bg.mp4" type="video/mp4" />
+	<source src="%svelte.assets%/bg.webm" type="video/webm">
 	Your browser does not support HTML5 video.
 </video>
 
