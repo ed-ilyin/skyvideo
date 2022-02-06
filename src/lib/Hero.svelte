@@ -8,7 +8,7 @@
 
 <div>
     <img id="face" src="./{id}.jpeg" alt={id}/>
-    <p>{name}</p>
+    <h3 id="name">{name}</h3>
     <a href="https://www.instagram.com/{ig}">
         <p>
             <img id="ig" src="./ig.png" alt="@" />

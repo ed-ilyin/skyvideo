@@ -2,6 +2,7 @@
     import Background from '$lib/Background.svelte'
     import About from '$lib/About.svelte'
     import Heroes from '$lib/Heroes.svelte'
+    import Footer from '$lib/Footer.svelte'
 
     let company = 'Sky Video FPV'
 </script>
@@ -11,6 +12,7 @@
     <Background />
     <About {company}/>
     <Heroes />
+    <Footer />
 </div>
 
 <style>
