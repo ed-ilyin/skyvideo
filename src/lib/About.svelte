@@ -1,10 +1,10 @@
 <script>
-    export let company = ''
+    export let company = 'Sky Video FPV'
 </script>
 
 <div>
     <h1>{company}</h1>
-    <p>Eyepopping Commercials</p>
+    <p>Eyepopping commercials</p>
 </div>
 
 <style>

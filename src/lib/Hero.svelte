@@ -20,6 +20,7 @@
         box-shadow: 2px 2px 4px #222d;
     }
     a {
-        color: #aadd
+        color: #bbdd;
+        text-decoration: none;
     }
 </style>
