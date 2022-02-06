@@ -14,16 +14,16 @@
 
 <article>
     <h2>Certified professionals:</h2>
-    <div>
+    <h3>
         {#each heroes as hero (hero.id)} <Hero {...hero} /> {/each}
-    </div>
+    </h3>
 </article>
 
 <style>
     h2 {
         text-shadow: 0px 0px 1px #000;
     }
-    div {
+    h3 {
         display: flex;
         justify-content: space-evenly;
     }
