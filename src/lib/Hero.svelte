@@ -2,13 +2,15 @@
     export let id = ''
     // export let emo = '🍎'
     export let name = ''
+    export let role = ''
     export let ig = ''
     export let phone = ''
 </script>
 
 <div>
-    <img id="face" src="./{id}.jpeg" alt={id}/>
+    <img id="face" src="./{id}.jpeg" alt={id} />
     <h3 id="name">{name}</h3>
+    <p>{role}</p>
     <a href="https://www.instagram.com/{ig}">
         <p>
             <img id="ig" src="./ig.png" alt="@" />
@@ -30,8 +32,10 @@
         border-radius: 1rem;
         box-shadow: 2px 2px 4px #222d;
     }
-    a {
+    p {
         color: #bbbb;
+    }
+    a {
         text-decoration: none;
     }
     #ig {
