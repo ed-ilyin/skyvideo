@@ -12,6 +12,19 @@
     ]
 </script>
 
-{#each heroes as hero (hero.id)}
-    <Hero {...hero} />
-{/each}
+<article>
+    <h2>Professionals</h2>
+    <div>
+        {#each heroes as hero (hero.id)} <Hero {...hero} /> {/each}
+    </div>
+</article>
+
+<style>
+    h2 {
+        text-shadow: 0px 0px 1px #000;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
