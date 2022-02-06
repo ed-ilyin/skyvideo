@@ -27,7 +27,7 @@
     div {
         background-color: #444d;
         padding: 1rem;
-        border-radius: 4px;
+        border-radius: 1rem;
         box-shadow: 2px 2px 4px #222d;
     }
     a {
