@@ -21,16 +21,19 @@
 </div>
 
 <style>
-    #face {
-        border-radius: 5rem;
-        max-width: 8rem;
-        max-height: 8rem;
-    }
     div {
         background-color: #444d;
         padding: 1rem;
         border-radius: 1rem;
         box-shadow: 2px 2px 4px #222d;
+    }
+    #face {
+        border-radius: 5rem;
+        max-width: 8rem;
+        max-height: 8rem;
+    }
+    h3 {
+        font-weight: 100;
     }
     p {
         color: #bbbb;

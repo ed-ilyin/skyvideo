@@ -29,6 +29,7 @@
 <style>
     h2 {
         text-shadow: 0px 0px 1px #000;
+        font-weight: 100;
     }
     div {
         display: flex;
