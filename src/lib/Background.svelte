@@ -1,4 +1,4 @@
-<video autoplay muted loop playsInline>
+<video autoplay muted loop playsInline poster="./bg.jpg">
     <source src="./bg.webm" type="video/webm" />
     <source src="./bg.mp4" type="video/mp4" />
     Your browser does not support HTML5 video.
