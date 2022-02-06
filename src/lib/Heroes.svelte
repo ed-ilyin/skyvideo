@@ -21,7 +21,7 @@
 </script>
 
 <article>
-    <h2>Certified professionals:</h2>
+    <h2>Certified professionals</h2>
     <div>
         {#each heroes as hero (hero.id)} <Hero {...hero} /> {/each}
     </div>

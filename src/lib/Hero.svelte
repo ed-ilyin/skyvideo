@@ -1,6 +1,5 @@
 <script>
-  import Social from './Social.svelte';
-
+    import Social from './Social.svelte'
     export let id = ''
     export let name = ''
     export let role = ''
@@ -14,9 +13,9 @@
     <h4 id="name">{name}</h4>
     <p>{role}</p>
     <p id="social">
-        <Social net="ig" name={ig}></Social>
-        <Social net="tt" name={tt}></Social>
-        <Social net="tel" name={tel}></Social>
+        <Social net="ig" name={ig} />
+        <Social net="tt" name={tt} />
+        <Social net="tel" name={tel} />
     </p>
 </div>
 
@@ -39,7 +38,7 @@
         color: #bbbb;
     }
     #social {
-        border-top: 1px solid #aaaa;
         text-align: left;
+        border-top: 1px solid #aaaa;
     }
 </style>

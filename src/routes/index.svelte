@@ -16,15 +16,13 @@
 </div>
 
 <style>
-    :root {
+    div {
         color: #fff;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-    }
-    div {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 100vh;
+        text-align: center;
     }
 </style>

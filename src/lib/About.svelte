@@ -4,7 +4,7 @@
 
 <section>
     <h1>{company}</h1>
-    <p>Eyepopping commercials for your business or social network</p>
+    <p>Eyepopping commercials<br>for your business or social networks</p>
 </section>
 
 <style>

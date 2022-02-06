@@ -19,16 +19,15 @@
 <style>
     a {
         text-decoration: none;
-        /* border-bottom: 1px solid #ffff; */
     }
     p {
         color: #bbbb;
     }
     img {
-        max-width: 1.5rem;
-        max-height: 1.5rem;
-        vertical-align: middle;
         margin-right: 4px;
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: middle;
     }
     span {
         vertical-align: middle;
