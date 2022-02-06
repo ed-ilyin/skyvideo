@@ -1,9 +1,12 @@
 <script>
+  import Social from './Social.svelte';
+
     export let id = ''
     // export let emo = '🍎'
     export let name = ''
     export let role = ''
     export let ig = ''
+    export let tt = ''
     export let phone = ''
 </script>
 
@@ -11,12 +14,8 @@
     <img id="face" src="./{id}.jpeg" alt={id} />
     <h3 id="name">{name}</h3>
     <p>{role}</p>
-    <a href="https://www.instagram.com/{ig}">
-        <p>
-            <img id="ig" src="./ig.png" alt="@" />
-            <span>{ig}</span>
-        </p>
-    </a>
+    <Social net="ig" name={ig}></Social>
+    <Social net="tt" name={tt}></Social>
     <a href="tel:{phone}"><p>{phone}</p></a>
 </div>
 
@@ -40,13 +39,5 @@
     }
     a {
         text-decoration: none;
-    }
-    #ig {
-        max-width: 1rem;
-        max-height: 1rem;
-        vertical-align: middle;
-    }
-    span {
-        vertical-align: middle;
     }
 </style>
