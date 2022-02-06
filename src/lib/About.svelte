@@ -4,7 +4,7 @@
 
 <div>
     <h1>{company}</h1>
-    <p>Eyepopping commercials</p>
+    <p>Eyepopping commercials for your business or social network</p>
 </div>
 
 <style>
