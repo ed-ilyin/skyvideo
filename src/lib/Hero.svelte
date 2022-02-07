@@ -2,7 +2,6 @@
     import Social from './Social.svelte'
     export let id = ''
     export let name = ''
-    export let role = ''
     export let ig = ''
     export let tt = ''
     export let tel = ''
@@ -11,7 +10,6 @@
 <div>
     <img id="face" src="./{id}.jpeg" alt={id} />
     <h4 id="name">{name}</h4>
-    <p>{role}</p>
     <p id="social">
         <Social net="ig" name={ig} />
         <Social net="tt" name={tt} />
@@ -21,19 +19,20 @@
 
 <style>
     div {
-        background-color: #444d;
+        background-color: #0004;
         padding: 1rem;
-        border-radius: 1rem;
-        box-shadow: 2px 2px 4px #222d;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 1px #000;
         margin: 4px;
+        text-shadow: none;
     }
     #face {
         border-radius: 5rem;
         max-width: 8rem;
         max-height: 8rem;
     }
-    h4 {
-        font-weight: 100;
+    #name {
+        font-weight: 100
     }
     p {
         color: #bbbb;

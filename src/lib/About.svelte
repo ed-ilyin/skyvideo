@@ -9,7 +9,10 @@
 
 <style>
     section {
-        color: #fff;
-        text-shadow: 0px 0px 1px #000000;
+        /* background-color: #0001; */
+        /* padding: 1rem; */
+        border-radius: 0.5rem;
+        font-size: large;
+        /* box-shadow: 0px 0px 1px #000; */
     }
 </style>

@@ -1,9 +1,9 @@
 <script>
-    import Youtube from './Youtube.svelte'
-    import Background from '$lib/Background.svelte'
     import About from '$lib/About.svelte'
-    import Heroes from '$lib/Heroes.svelte'
+    import Background from '$lib/Background.svelte'
     import Footer from '$lib/Footer.svelte'
+    import Heroes from '$lib/Heroes.svelte'
+    import YouTube from '$lib/YouTube.svelte'
 
     let company = 'Sky Video FPV'
 </script>
@@ -13,15 +13,16 @@
 <div>
     <About {company} />
     <Heroes />
-    <Youtube />
+    <YouTube />
 </div>
 <Footer />
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/cCuxYb4_DjQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <style>
     :root {
         color: #fff;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        text-shadow: 0px 0px 1px #000;
         text-align: center;
     }
     div {

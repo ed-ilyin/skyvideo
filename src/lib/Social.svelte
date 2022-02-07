@@ -21,7 +21,7 @@
         text-decoration: none;
     }
     p {
-        color: #bbbb;
+        color: #ddd;
     }
     img {
         margin-right: 2px;
