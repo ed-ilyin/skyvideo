@@ -9,7 +9,7 @@
     let url = nets.get(net)
 </script>
 
-<a href="{url}{name}" target="_blank">
+<a href="{url}{name}" target="_blank" style="text-align: left;">
     <p>
         <img src="./{net}.png" alt="{net}" />
         <span>{name}</span>

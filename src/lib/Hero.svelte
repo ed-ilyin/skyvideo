@@ -25,6 +25,7 @@
         padding: 1rem;
         border-radius: 1rem;
         box-shadow: 2px 2px 4px #222d;
+        margin: 1rem;
     }
     #face {
         border-radius: 5rem;
