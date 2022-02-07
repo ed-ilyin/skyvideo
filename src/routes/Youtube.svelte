@@ -22,7 +22,7 @@
 <style>
     iframe {
         margin: 0.5rem;
-        width: 352px;
-        height: 198px;
+        width: 336px;
+        height: 189px;
     }
 </style>
