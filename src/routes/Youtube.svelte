@@ -21,8 +21,8 @@
 
 <style>
     iframe {
-        margin: 0.5rem;
-        width: 336px;
-        height: 189px;
+        margin: 4px;
+        width: 328px;
+        height: 184.5px;
     }
 </style>
