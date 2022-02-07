@@ -24,7 +24,7 @@
         color: #bbbb;
     }
     img {
-        margin-right: 4px;
+        margin-right: 2px;
         width: 1.5rem;
         height: 1.5rem;
         vertical-align: middle;
