@@ -3,10 +3,8 @@
         '0WlrfwfiTGA',
         'RorM_2o4OG8',
         '_DuWAVRMWl4',
-        'CrhVJzgWO4M',
         '-LvIRkucqRU',
-        'Mg235KrnDUM',
-        '-2_ATS-hWKI'
+        'Mg235KrnDUM'
     ]
 </script>
 
