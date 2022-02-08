@@ -5,6 +5,7 @@
             id: 'raz',
             name: 'Vadims Jaudzems',
             ig: 'raz_fpv',
+            yt: 'razved4uk',
             tt: 'razfpv',
             tel: '+371 28877145'
         },
@@ -12,6 +13,7 @@
             id: 'ed',
             name: 'Ed Ilyin',
             ig: 'ed.ilyin.fpv',
+            yt: 'edadult',
             tt: 'ed.ilyin.fpv',
             tel: '+371 29168716'
         }

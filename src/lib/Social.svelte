@@ -2,16 +2,19 @@
     export let net = ''
     export let name = ''
     let nets = new Map([
-        ['ig', 'https://www.instagram.com/'],
-        ['tt', 'https://www.tiktok.com/@'],
-        ['tel', 'tel:']
+        ['ig', ['png', 'https://www.instagram.com/']],
+        ['yt', ['jpeg', 'https://www.youtube.com/user/']],
+        ['tt', ['png', 'https://www.tiktok.com/@']],
+        ['tel', ['png', 'tel:']]
     ])
-    let url = nets.get(net)
+    let tuple = nets.get(net)
+    let [ext,url] = ['','']
+    if (tuple !== undefined) { [ext,url] = tuple }
 </script>
 
 <a href="{url}{name}" target="_blank" style="text-align: left;">
     <p>
-        <img src="./{net}.png" alt="{net}" />
+        <img src="./{net}.{ext}" alt="{net}" />
         <span>{name}</span>
     </p>
 </a>

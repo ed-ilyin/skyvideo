@@ -3,6 +3,7 @@
     export let id = ''
     export let name = ''
     export let ig = ''
+    export let yt = ''
     export let tt = ''
     export let tel = ''
 </script>
@@ -12,6 +13,7 @@
     <h4 id="name">{name}</h4>
     <p id="social">
         <Social net="ig" name={ig} />
+        <Social net="yt" name={yt} />
         <Social net="tt" name={tt} />
         <Social net="tel" name={tel} />
     </p>
@@ -39,6 +41,6 @@
     }
     #social {
         text-align: left;
-        border-top: 1px solid #aaaa;
+        /* border-top: 1px solid #aaaa; */
     }
 </style>
