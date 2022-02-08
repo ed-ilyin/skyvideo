@@ -19,6 +19,7 @@
 
 <style>
     :root {
+        background-color: #000b;
         color: #fff;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 100;
