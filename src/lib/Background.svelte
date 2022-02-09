@@ -7,15 +7,26 @@
 <style>
     video {
         position: fixed;
-        top: 50%;
         left: 50%;
+        top: 50%;
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%);
         min-width: 100%;
         min-height: 100%;
-        width: auto;
-        height: auto;
         z-index: -1000;
         overflow: visible;
+    }
+    @media (min-aspect-ratio: 16/9) {
+        video {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (max-aspect-ratio: 16/9) {
+        video {
+            width: auto;
+            height: 100%;
+        }
     }
 </style>
