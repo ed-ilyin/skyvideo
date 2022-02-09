@@ -19,7 +19,11 @@
     a {
         text-decoration: none;
         color: #fffb;
-        padding: 4px 0px;
+        padding: 8px;
+    }
+    a:hover {
+        background-color: #fff8;
+        border-radius: 8px;
     }
     img {
         margin-right: 2px;

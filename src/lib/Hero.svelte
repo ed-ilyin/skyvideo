@@ -22,7 +22,7 @@
 <style>
     hero {
         background-color: #0004;
-        padding: 1rem;
+        padding: 8px;
         border-radius: 0.5rem;
         box-shadow: 0px 0px 1px #000;
         margin: 4px;
