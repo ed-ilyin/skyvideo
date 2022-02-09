@@ -22,10 +22,10 @@
 <style>
     hero {
         background-color: #0004;
-        padding: 8px;
+        padding: 6px;
         border-radius: 0.5rem;
         box-shadow: 0px 0px 1px #000;
-        margin: 4px;
+        margin: 6px;
         text-shadow: none;
     }
     social {

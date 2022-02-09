@@ -19,7 +19,7 @@
     a {
         text-decoration: none;
         color: #fff;
-        padding: 4px;
+        padding: 6px;
         opacity: 0.7;
         border-radius: 8px;
         transition: background-color 100ms ease-out 100ms
