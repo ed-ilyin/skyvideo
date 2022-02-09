@@ -22,6 +22,7 @@
         padding: 4px;
         opacity: 0.7;
         border-radius: 8px;
+        transition: background-color 100ms ease-out 100ms
     }
     a:hover {
         background-color: #fff8;

@@ -1,4 +1,5 @@
 <script>
+    import Header from './Header.svelte'
     let videos = [
         '0WlrfwfiTGA',
         'RorM_2o4OG8',
@@ -9,7 +10,7 @@
 </script>
 
 <section>
-    <h2>Portfolio</h2>
+    <Header>Portfolio</Header>
     <p>
         {#each videos as video (video)}
             <iframe
@@ -27,6 +28,7 @@
         margin: 4px;
         width: 328px;
         height: 184.5px;
+        opacity: 0.9;
     }
 </style>
 

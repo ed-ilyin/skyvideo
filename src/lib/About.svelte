@@ -1,11 +1,12 @@
 <script>
+    import Header from './Header.svelte'
     export let company = 'Sky Video FPV'
 </script>
 
 <section>
-    <h1>{company}</h1>
+    <Header>{company}</Header>
     <p>Eyepopping commercials<br>for your business and social media</p>
-    <p>We will draw attention to your brainchild</p>
+    <p class="smallcaps">We will draw attention to your brainchild</p>
 </section>
 
 <style>
@@ -15,5 +16,8 @@
         border-radius: 0.5rem;
         font-size: x-large;
         /* box-shadow: 0px 0px 1px #000; */
+    }
+    .smallcaps {
+        font-variant: small-caps;
     }
 </style>

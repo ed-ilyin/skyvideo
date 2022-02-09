@@ -1,5 +1,6 @@
 <script>
     import Hero from './Hero.svelte'
+    import Header from './Header.svelte'
     let heroes = [
         {
             id: 'raz',
@@ -21,7 +22,7 @@
 </script>
 
 <article>
-    <h2>Certified professionals</h2>
+    <Header>Certified professionals</Header>
     <div>
         {#each heroes as hero (hero.id)} <Hero {...hero} /> {/each}
     </div>
