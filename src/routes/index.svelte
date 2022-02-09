@@ -23,7 +23,7 @@
         color: #fff;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 100;
-        text-shadow: 0px 0px 1px #000;
+        text-shadow: 0px 0px 2px #000;
         text-align: center;
     }
     div {

@@ -22,7 +22,6 @@
             height: auto;
         }
     }
-
     @media (max-aspect-ratio: 16/9) {
         video {
             width: auto;
