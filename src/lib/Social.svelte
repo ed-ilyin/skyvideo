@@ -5,24 +5,21 @@
         ['ig', 'https://www.instagram.com/'],
         ['yt', 'https://www.youtube.com/user/'],
         ['tt', 'https://www.tiktok.com/@'],
-        ['tel','tel:']
+        ['tel', 'tel:']
     ])
     let url = nets.get(net)
 </script>
 
-<a href="{url}{name}" target="_blank" style="text-align: left;">
-    <p>
-        <img src="./{net}.png" alt="{net}" />
-        <span>{name}</span>
-    </p>
+<a href="{url}{name}" target="_blank">
+    <img src="./{net}.png" alt={net} />
+    <span>{name}</span>
 </a>
 
 <style>
     a {
         text-decoration: none;
-    }
-    p {
-        color: #ddd;
+        color: #fffb;
+        padding: 4px 0px;
     }
     img {
         margin-right: 2px;

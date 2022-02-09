@@ -8,19 +8,19 @@
     export let tel = ''
 </script>
 
-<div>
+<hero>
     <img id="face" src="./{id}.jpeg" alt={id} />
     <h4 id="name">{name}</h4>
-    <p id="social">
+    <social id="social">
         <Social net="ig" name={ig} />
         <Social net="yt" name={yt} />
         <Social net="tt" name={tt} />
         <Social net="tel" name={tel} />
-    </p>
-</div>
+    </social>
+</hero>
 
 <style>
-    div {
+    hero {
         background-color: #0004;
         padding: 1rem;
         border-radius: 0.5rem;
@@ -28,13 +28,17 @@
         margin: 4px;
         text-shadow: none;
     }
+    social {
+        display: flex;
+        flex-direction: column;
+    }
     #face {
         border-radius: 5rem;
         max-width: 8rem;
         max-height: 8rem;
     }
     #name {
-        font-weight: 100
+        font-weight: 100;
     }
     p {
         color: #bbbb;
