@@ -9,9 +9,9 @@
 </script>
 
 <hero>
-    <img id="face" src="./{id}.jpeg" alt={id} />
-    <h4 id="name">{name}</h4>
-    <social id="social">
+    <img src="./{id}.jpeg" alt={id} />
+    <h3>{name}</h3>
+    <social>
         <Social net="ig" name={ig} />
         <Social net="yt" name={yt} />
         <Social net="tt" name={tt} />
@@ -28,21 +28,20 @@
         margin: 6px;
         text-shadow: none;
     }
-    social {
-        display: flex;
-        flex-direction: column;
-    }
-    #face {
+    img {
         border-radius: 5rem;
         max-width: 8rem;
         max-height: 8rem;
         margin: 4px;
     }
-    #name {
+    social {
+        display: flex;
+        flex-direction: column;
+    }
+    h3 {
         font-weight: 100;
     }
-    #social {
+    social {
         text-align: left;
-        /* border-top: 1px solid #aaaa; */
     }
 </style>

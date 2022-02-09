@@ -5,5 +5,6 @@
         font-weight: 100;
         text-transform: uppercase;
         /* font-variant: small-caps; */
+        font-size: larger;
     }
 </style>
