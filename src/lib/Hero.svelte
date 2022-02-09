@@ -40,9 +40,6 @@
     #name {
         font-weight: 100;
     }
-    p {
-        color: #bbbb;
-    }
     #social {
         text-align: left;
         /* border-top: 1px solid #aaaa; */
