@@ -30,5 +30,6 @@
     }
     span {
         vertical-align: middle;
+        border-bottom: 1px solid #fff4;
     }
 </style>
