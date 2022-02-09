@@ -18,19 +18,21 @@
 <style>
     a {
         text-decoration: none;
-        color: #fffb;
-        padding: 8px;
+        color: #fff;
+        padding: 4px;
+        opacity: 0.7;
+        border-radius: 8px;
     }
     a:hover {
         background-color: #fff8;
-        border-radius: 8px;
+        color: #fff;
+        opacity: 1;
     }
     img {
         margin-right: 2px;
         width: 1.5rem;
         height: 1.5rem;
         vertical-align: middle;
-        opacity: 0.7;
     }
     span {
         vertical-align: middle;

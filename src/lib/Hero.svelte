@@ -36,6 +36,7 @@
         border-radius: 5rem;
         max-width: 8rem;
         max-height: 8rem;
+        margin: 4px;
     }
     #name {
         font-weight: 100;
