@@ -21,7 +21,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": ".",
 		"allowJs": false,
-		"checkJs": true,
+		// "checkJs": true,
 		"paths": {
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"]
