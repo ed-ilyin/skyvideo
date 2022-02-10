@@ -10,11 +10,7 @@
 
 <svelte:head><title>{company}</title></svelte:head>
 <Background />
-<main>
-    <About {company} />
-    <Heroes />
-    <YouTube />
-</main>
+<main><About {company} /> <Heroes /> <YouTube /></main>
 <Footer />
 
 <style>
@@ -28,7 +24,6 @@
     }
     main {
         display: flex;
-        /* flex-direction: column; */
         justify-content: space-evenly;
         flex-wrap: wrap;
         align-items: center;
