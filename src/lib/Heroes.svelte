@@ -8,7 +8,8 @@
             ig: 'raz_fpv',
             yt: 'razved4uk',
             tt: 'razfpv',
-            tel: '+371 28877145'
+            em: 'raz',
+            tp: '+371 28877145'
         },
         {
             id: 'ed',
@@ -16,7 +17,8 @@
             ig: 'ed.ilyin.fpv',
             yt: 'edadult',
             tt: 'ed.ilyin.fpv',
-            tel: '+371 29168716'
+            em: 'ed',
+            tp: '+371 29168716'
         }
     ]
 </script>

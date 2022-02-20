@@ -5,17 +5,22 @@
     export let ig = ''
     export let yt = ''
     export let tt = ''
-    export let tel = ''
+    export let em = ''
+    export let tp = ''
+    let socials = [
+
+    ]
 </script>
 
 <hero>
     <img src="./{id}.jpeg" alt={id} />
     <h3>{name}</h3>
     <social>
-        <Social net="ig" name={ig} />
-        <Social net="yt" name={yt} />
-        <Social net="tt" name={tt} />
-        <Social net="tel" name={tel} />
+        <Social net="ig" user={ig} />
+        <Social net="yt" user={yt} />
+        <Social net="tt" user={tt} />
+        <Social net="em" user={em} {name} />
+        <Social net="tp" user={tp} />
     </social>
 </hero>
 

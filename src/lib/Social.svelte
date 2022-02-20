@@ -1,18 +1,20 @@
 <script>
     export let net = ''
+    export let user = ''
     export let name = ''
     let nets = new Map([
-        ['ig', 'https://www.instagram.com/'],
-        ['yt', 'https://www.youtube.com/user/'],
-        ['tt', 'https://www.tiktok.com/@'],
-        ['tel', 'tel:']
+        ['ig', 'https://www.instagram.com/$1'],
+        ['yt', 'https://www.youtube.com/user/$1'],
+        ['tt', 'https://www.tiktok.com/@$1'],
+        ['em', 'mailto:"$2"<$1@skyvideofpv.com>'],
+        ['tp', 'tel:$1']
     ])
     let url = nets.get(net)
 </script>
 
-<a href="{url}{name}" target="_blank">
+<a href="{url.replace('$1',user).replace('$2',name)}" target="_blank">
     <img src="./{net}.png" alt={net} />
-    <span>{name}</span>
+    <span>{user}</span>
 </a>
 
 <style>

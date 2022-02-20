@@ -26,8 +26,8 @@
     iframe {
         border-radius: 0.5rem;
         margin: 4px;
-        width: 328px;
-        height: 184.5px;
+        width: 320px;
+        height: 180px;
         opacity: 0.9;
     }
 </style>
