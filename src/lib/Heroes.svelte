@@ -5,9 +5,9 @@
         {
             id: 'raz',
             name: 'Vadims Jaudzems',
-            ig: 'raz_fpv',
+            ig: 'razflight',
             yt: 'razved4uk',
-            tt: 'razfpv',
+            tt: 'razflight',
             em: 'raz',
             tp: '+371 28877145'
         },

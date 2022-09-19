@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bitrate=2M
+bitrate=1M
 
 # best | good | realtime
 deadline=best
